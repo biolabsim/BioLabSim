@@ -1,7 +1,6 @@
 .ipynb_checkpoints/
 __pycache__/
 *~*
-*.gz
 .vscode
 output/
 bin/
@@ -14,9 +13,11 @@ Historic/*
 Data/*.xlsx
 Data/*.csv
 Data/*.zip
+Data/*.gz
 _build
 
 
 # Ignore the generated API files and build output of sphinx documentation.
 docs/_build
 docs/api/*
+.hypothesis
